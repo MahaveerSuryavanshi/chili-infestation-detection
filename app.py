@@ -79,7 +79,7 @@ elif(app_page_select=="App"):
     time.sleep(2)
     classes =['Affected','Healthy']
     result_index = prediction(test_image)
-    st.success("Model it is predicted {}".format(classes[result_index]))
+    st.success("Model  is predicted {}".format(classes[result_index]))
 
 
 elif(app_page_select=="About"):
